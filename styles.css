@@ -1,0 +1,111 @@
+*{font-family: 'Dosis', sans-serif;}
+
+body{background-image: url(images/background\ avocado.jpeg);
+    position: relative;}
+
+.navbar ul {list-style-type: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} 
+
+.navbar a{
+    color:white;
+    font-size: x-large;
+}
+
+.navbar a:hover{background-color: white;
+color: rgb(122, 87, 58)}
+
+#section1 {
+    background-color: #e9ffc2ea;
+}
+
+#section2 {
+    background-color: #dcf5dbee;
+}
+
+#section3 {
+    background-color: #feffaeed;
+}
+
+.container { display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    gap: 100px;
+
+}
+
+.container div{ text-align: left;
+    max-width: 400px;
+}
+
+.container img { align-items:flex-start;
+    width: 450px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.container h2{ text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: xx-large;
+}
+
+.container p{ font-size: large;
+}
+
+
+.card-section{ text-align: center;
+    padding: 20px;
+}
+
+
+.card-container{ display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{ width: 300px;
+    height: 350px;
+    margin-bottom: 20px;
+    border: 2px #bbc79bf3;
+    border-radius: 8px;
+    background-color: #deecb9;
+}
+
+.card:hover { background-color: #c9e8abe1; 
+}
+
+.card img {
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;   
+}
+
+.card p{
+    padding: 10px;
+}
+
+.footer nav{ display: flex;
+    justify-content: center;
+    margin: 20px;
+    
+}
+
+.footer ul{list-style-type: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%
+}
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: large;
+}
